@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iv_directions_bike_black"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/ic_directions_run_black_24dp" />
+
+    <ImageView
+        android:id="@+id/ic_cloud_black"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/ic_local_airport_black_24dp" />
+
+    <ImageView
+        android:id="@+id/iv_directions_transit"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/iv_directions_bike_black"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/ic_headset_black_24dp" />
+
+    <ImageView
+        android:id="@+id/iv_headset_black"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/iv_directions_bike_black"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/ic_cloud_black_24dp" />
+
+
+</RelativeLayout>
